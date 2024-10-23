@@ -10,7 +10,7 @@ int main()
     printf("Enter number of cols: ");
     scanf("%d", &cols);
 
-    int *p = (int *)malloc(rows * cols * sizeof(int *));
+    int *p = (int *)malloc(rows * cols * sizeof(int ));
 
 
     printf("Enter elements of the matrix:\n");
